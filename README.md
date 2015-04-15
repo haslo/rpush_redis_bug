@@ -22,3 +22,4 @@ rspec ./spec/rpush/single_table_inheritance_spec.rb:33 # Rpush Notification An W
 ```
 
 This does not appear to happen with ActiveRecord storage, so it could be a bug in either `rpush` or `rpush-redis`.
+If you want to try out ActiveRecord storage, the above steps have prepared everything and you can simply change `config/initializers/rpush.rb` and modify the `config.client`.
