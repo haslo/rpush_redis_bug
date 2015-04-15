@@ -1,3 +1,9 @@
+# Bug report Rails 4.2.1 app for Rpush bug
+
+This repository is an example for this bug:
+
+https://github.com/rpush/rpush/issues/147
+
 ## Steps to reproduce the bug
 
 1. Have Redis running (default config, port 6379 on localhost)
