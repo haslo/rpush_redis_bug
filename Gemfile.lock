@@ -1,3 +1,16 @@
+GIT
+  remote: git@github.com:haslo/modis.git
+  revision: 9f073d49ade6a55b5e2b3148321411aabe753ba8
+  branch: subclass_finder_bugfix
+  specs:
+    modis (1.4.1)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      connection_pool (>= 2)
+      hiredis (>= 0.5)
+      msgpack (>= 0.5)
+      redis (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,13 +67,6 @@ GEM
     mime-types (2.4.3)
     mini_portile (0.6.2)
     minitest (5.6.0)
-    modis (1.4.1)
-      activemodel (>= 3.0)
-      activesupport (>= 3.0)
-      connection_pool (>= 2)
-      hiredis (>= 0.5)
-      msgpack (>= 0.5)
-      redis (>= 3.0)
     msgpack (0.5.11)
     multi_json (1.11.0)
     net-http-persistent (2.9.4)
@@ -137,6 +143,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  modis!
   rails (= 4.2.1)
   rpush
   rpush-redis
